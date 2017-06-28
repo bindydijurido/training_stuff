@@ -19,7 +19,7 @@ public class Verify_jobs_offers {
 	public void setUp() throws Exception {
 		System.setProperty(
 				"webdriver.gecko.driver",
-				"C:/Users/devtest-pl/OneDrive - di-support/Eclipse/Projects/geckodriver/geckodriver.exe");
+				"C:/Eclipse/plugins/geckodriver-v0.16.1-win64/geckodriver.exe");
 
 		driver = new FirefoxDriver();
 		baseUrl = "http://apptension.com/jobs";
